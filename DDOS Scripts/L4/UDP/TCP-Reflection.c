@@ -1,7 +1,3 @@
-/*
- * TCP-AMP (killall) script made by Courvix. This version uses a list of IP addresses to use as reflectors
- * Credits to LiteSpeed for the C base..
- */
 
 #include <unistd.h>
 #include <time.h>
