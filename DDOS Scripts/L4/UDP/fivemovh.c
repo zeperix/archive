@@ -1,8 +1,4 @@
-/* 
-sex on the beach
-so high quality c code that you will turn gay
-by googleadmin
-*/
+
 #include <unistd.h>
 #include <time.h>
 #include <sys/types.h>
