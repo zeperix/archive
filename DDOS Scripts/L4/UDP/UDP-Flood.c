@@ -1,7 +1,4 @@
-/*
-same as oack non spoofed, connects to tcp port first and floods udp port, yep
-made by googleadmin
-*/
+
 #include <unistd.h>
 #include <time.h>
 #include <sys/types.h>
