@@ -5,7 +5,7 @@ const fs = require('fs'),
 
 if (process.argv.length !== 6) {
     console.log(`
-node ${path.basename(__filename)} url time requests per ip proxy
+node ${path.basename(__filename)} url time req
 node ${path.basename(__filename)} http://example.com 60 64 http.txt`);
     process.exit(0);
 }
