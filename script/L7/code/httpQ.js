@@ -25,7 +25,7 @@ var targetPathname = url.parse(target).path;
 var targetHost = url.parse(target).host;
 originTarget = target;
 
-const proxies = fs.readFileSync('proxies.txt', 'utf-8').match(/\S+/g);
+const proxies = fs.readFileSync('proxy.txt', 'utf-8').match(/\S+/g);
 const userAgents = fs.readFileSync('ua.txt', 'utf-8').replace(/\r/g, '').split('\n');
 const referers = fs.readFileSync('referer.txt', 'utf-8').replace(/\r/g, '').split('\n');
 
